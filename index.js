@@ -7,6 +7,9 @@ app.get("/", (req, res) => {
 app.get("/abc", (req, res) => {
   res.send("abc!");
 });
+app.get("/bcd", (req, res) => {
+  res.send("bcd!");
+});
 
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
