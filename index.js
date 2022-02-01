@@ -10,6 +10,9 @@ app.get("/abc", (req, res) => {
 app.get("/bcd", (req, res) => {
   res.send("bcd!");
 });
+app.get("/cde", (req, res) => {
+  res.send("cde!");
+});
 
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
